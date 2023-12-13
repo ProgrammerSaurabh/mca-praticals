@@ -1,5 +1,18 @@
 #### Write a JSP page to display the Registration form (Make your own assumptions)
 
+##### Installation and setup process
+
+1. Visit the site https://www.eclipse.org/downloads/packages/, to download the Eclipse IDE
+2. Visit the site https://tomcat.apache.org/download-90.cgi, to download the Tomcat server
+3. Install both
+4. To link tomcat and eclipse click on the Server tab
+   a. If Server tab is not visible, click on File > New > Other > Search for Server and add it
+5. Configure the tomcat by choosing appropriate file path
+6. Start the server
+   a. If there is an 404 error on webpage, double click tomcat on server tab
+   b. Select check the "Tomcat Installation" radio button
+   c. Restart the server
+
 ##### This includes lots of files
 
 ##### Code
