@@ -80,3 +80,4 @@ connection.query(`SELECT * FROM ${TABLE}`, displayData);
 ##### Output
 
 ![01 output](./01.JPG)
+![02 output](./02.JPG)
