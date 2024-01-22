@@ -18,7 +18,7 @@
 ##### Code
 
 ```
-index.jsp
+// index.jsp
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -53,7 +53,7 @@ index.jsp
 ![Index page](./index.JPG)
 
 ```
-components/header.jsp
+// components/header.jsp
 
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container text-w">
@@ -82,7 +82,7 @@ components/header.jsp
 ```
 
 ```
-components/footer.jsp
+// components/footer.jsp
 
 <footer class="p-4 text-center bg-light">
 	Copyright &copy; <%= new java.util.Date() %>
@@ -90,7 +90,7 @@ components/footer.jsp
 ```
 
 ```
-login.jsp
+// login.jsp
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -180,7 +180,7 @@ login.jsp
 ![Invalid Credentials](./invalid-credentials.JPG)
 
 ```
-loginAction.jsp
+// loginAction.jsp
 
 <%
 	String name = request.getParameter("name");
@@ -205,7 +205,7 @@ loginAction.jsp
 ```
 
 ```
-profile.jsp
+// profile.jsp
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -255,7 +255,7 @@ profile.jsp
 ![Profile page](./profile.JPG)
 
 ```
-logoutAction.jsp
+// logoutAction.jsp
 
 <%
 	session.removeAttribute("loggedIn");

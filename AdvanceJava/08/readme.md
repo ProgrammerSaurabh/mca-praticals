@@ -43,7 +43,7 @@ public class HelloWorldApp {
     }
 }
 
-//HelloWorld.java
+// HelloWorld.java
 
 public class HelloWorld {
 
@@ -52,7 +52,7 @@ public class HelloWorld {
     }
 }
 
-//AppConfig.java
+// AppConfig.java
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
