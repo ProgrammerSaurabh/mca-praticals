@@ -19,7 +19,7 @@
     </style>
   </head>
 
-  <body ng-app>
+  <body ng-app="app" ng-controller="ctrl">
     <section>
       <form>
         <div>
@@ -55,9 +55,19 @@
         have <span>{{ terms ? ' accepted' : ' not accepted' }}</span> terms and
         condition
       </p>
+
+      <p>And today's date is {{ date }}</p>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+
+    <script>
+    	const app = angular.module("app", []);
+
+        app.controller("ctrl", ($scope) => {
+        	$scope.date = new Date();
+        });
+    </script>
   </body>
 </html>
 ```
@@ -65,3 +75,4 @@
 ##### Output
 
 ![01 output](./01.JPG)
+![02 output](./02.JPG)
